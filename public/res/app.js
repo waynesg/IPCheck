@@ -38,7 +38,7 @@ new Vue({
     alertTitle: "",
     alertToShow: false,
     inputIP: "",
-    inputBingMapAPIKEY: "",
+    inputBingMapAPIKEY: "AiXoq5TPHxMZ7wHYcye9yVVq8jpy2fEXXi1le9PhkIpEE06gNVt-TNYS-1-s5nzk",
     bingMapAPIKEYError: false,
     bingMapLanguage: "en",
     modalQueryResult: null,
