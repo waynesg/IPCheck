@@ -4,9 +4,12 @@ permissions:
   contents: write
 
 on:
-  #schedule:
-  #  - cron: "0 0 * * *" # 每天 UTC 时间 0 点
   workflow_dispatch:
+  watch:
+    types: started
+  # schedule:
+  #   - cron: 0 20 * * *
+  repository_dispatch:
 
 jobs:
   sync_latest_from_upstream:
