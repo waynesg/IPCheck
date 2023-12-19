@@ -1158,3 +1158,4 @@ new Vue({
     modalElement.addEventListener("hidden.bs.modal", this.resetModalData);
   },
 });
+ 
